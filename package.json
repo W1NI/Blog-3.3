@@ -1,0 +1,28 @@
+{
+  "name": "blog-3.3",
+  "version": "1.0.0",
+  "description": "Formative 3",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W1NI/Blog-3.3.git"
+  },
+  "keywords": [
+    "google",
+    "blog"
+  ],
+  "author": "Kenneth, Winson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/W1NI/Blog-3.3/issues"
+  },
+  "homepage": "https://github.com/W1NI/Blog-3.3#readme"
+}
