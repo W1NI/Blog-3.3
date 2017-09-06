@@ -1,21 +1,23 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Abel';
 }
 
-.container {
-
+h1 {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .left-column {
-  background-color: #9b9fa5;
+  background-color: #ffa7a7;
   width: 25%;
   height: 100vh;
   float: left;
 }
 
 .right-column {
-  background-color: #d0d5dd;
+  background-color: #ffc5c5;
   width: 75%;
   height: 100vh;
   float: left;
@@ -48,6 +50,6 @@
 }
 
 .blog-post {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 5%;
 }

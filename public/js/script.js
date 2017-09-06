@@ -23,3 +23,10 @@ $("button").click(function(){
         alert("Data: " + data + "\nStatus: " + status);
     });
 });
+
+$('#post-button').click(function(){
+  var blogTitle = $('#post-title').val();
+  console.log(blogTitle);
+  var blogContent = $('#blog-post-content').val();
+  console.log(blogContent);
+});
