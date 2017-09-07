@@ -57,7 +57,11 @@ function blogCallBack(req, res) {
             oauth2Client.setCredentials(tokens);
             blogger.posts.insert({
                 auth: oauth2Client,
+<<<<<<< HEAD
                 blogId: '1251278663663343818',
+=======
+                blogId: '5369044160670472941',
+>>>>>>> master
                 resource: {
                   title: body['title'],
                   content: body['content']
@@ -72,9 +76,14 @@ function blogCallBack(req, res) {
 }
 
 app.use(express.static("./public"));
+<<<<<<< HEAD
 app.use('/scripts', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
 app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
 
+=======
+app.use('/jquery', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
+app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
+>>>>>>> master
 app.use('/config', express.static(path.join(__dirname)));
 
 app.listen(3000);
@@ -87,13 +96,20 @@ console.log("Server running on port 3000");
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 // var express = require("express");
 // var path = require("path");
 // var readline = require('readline');
 // var google = require('googleapis');
 // var config = require('./config');
+<<<<<<< HEAD
 //
+=======
+// var cors = require('cors');
+>>>>>>> master
 //
 // var app = express();
 // var OAuth2Client = google.auth.OAuth2;

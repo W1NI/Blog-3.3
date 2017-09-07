@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog-3.3</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="left-column">
         <div class="profile">
           <img src="img/profile-pic.jpg" alt="" class="profile-pic">
@@ -16,7 +18,7 @@
         <div class="blog-info">
           <div class="blog-title">
             <p><em>blog title</em></p>
-            <h3 class="blog-title-text">Blogger 33333</h3>
+            <h3 class="blog-title-text">Hairstyle Reference Blog</h3>
           </div><br>
           <div class="blog-description">
             <p><em>blog description</em></p>
@@ -33,18 +35,27 @@
         </div>
       </div>
       <div class="right-column">
-        <h1>Blogger 33333</h1>
-        <div class="blog-post">
-          <label for="post-title" class="post-title">Blog post title</label><br>
-          <input type="text" name="post-titles" id="post-title"><br><br>
-          <textarea cols="120" rows="10" placeholder="Blog post content" id="blog-post-content"></textarea><br>
-          <input type="submit" class="" id="post-button" value="POST"><br><br>
-          <button>POST Test</button>
-        </div>
+        <h1>Hairstyle Reference Blog</h1>
+        <form id="postForm" method="post" action="/">
+          <div class="blog-post">
+            <label for="post-title" class="post-title">Blog post title</label><br>
+            <input type="text" name="post-titles" id="title"><br><br>
+            <textarea cols="120" rows="10" placeholder="Blog post content" id="content"></textarea><br>
+            <!-- <input type="submit" class="" id="post-button" value="POST"><br><br> -->
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </form>
+        <h2>Your Posts</h2>
 
+        <span id="result"></span>
+
+
+        <div id="Posts"></div>
       </div>
-    </div>
+    <!-- </div> -->
+
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
