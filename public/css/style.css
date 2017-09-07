@@ -1,8 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Abel';
+  font-family: 'Abel' !important;
+  
 }
+
 
 h1 {
   text-align: center;
@@ -12,7 +14,7 @@ h1 {
 .left-column {
   background-color: #ffa7a7;
   width: 25%;
-  height: 100vh;
+  height: 1500px;
   float: left;
 }
 
@@ -58,4 +60,28 @@ input:focus, textarea:focus {
     outline: none !important;
     border:3px solid #ffa7a7;
     box-shadow: 0 0 10px #ffa7a7;
+}
+span{
+  background-color: #ffc5c5 !important;
+}
+.pulledPosts div{
+    background-color: #ffc5c5 !important;
+
+}
+.pulledPosts{
+  padding-top: 15px;
+}
+
+#Posts{
+  background-color: #ffc5c5;
+  margin-top: 20px;
+}
+
+#Posts div{
+  padding-left: 20px;
+}
+
+h2{
+  margin-top:20px;
+  text-align: center;
 }
